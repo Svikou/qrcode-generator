@@ -31,31 +31,31 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%;
+  width: 40%;
   margin-top: 20px;
 }
 
 .qrcode__input input {
   width: 100%;
-  padding: 10px;
-  font-size: 12px;
+  padding: 20px;
+  font-size: 14px;
   outline: none;
   resize: none;
-  border-radius: 5px;
+  border-radius: 16px;
   border: 1px solid #ccc;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .qrcode__input button,
 .qrcode__download button {
   display: inline-block;
-  padding: 7px;
+  padding: 20px;
   cursor: pointer;
   color: #fff;
   background-color: rgb(96, 96, 246);
   border: none;
-  border-radius: 5px;
-  font-size: 12px;
+  border-radius: 16px;
+  font-size: 16px;
   font-weight: 500;
   transition: background-color 0.2s;
 }
@@ -64,9 +64,10 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-left: 100px;
 }
 
 .qrcode__download button {
-  margin-top: 10px;
+  margin-top: 20px;
 }

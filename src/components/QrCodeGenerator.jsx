@@ -31,16 +31,16 @@ function QrCodeGenerator() {
 
   return (
     <div className="qrcode__container">
-      <h1>QR Code Generator</h1>
+      <h1>Générateur de QR Code </h1>
       <div className="qrcode__container--parent" ref={qrCodeRef}>
         <div className="qrcode__input">
           <input
             type="text"
-            placeholder="Enter a URL"
+            placeholder="Saisie ton URL"
             value={url}
             onChange={(e) => setUrl(e.target.value)}
           />
-          <button onClick={handleQrCodeGenerator}>Generate QR Code</button>
+          <button onClick={handleQrCodeGenerator}>Génère ton QR Code</button>
         </div>
 
         {qrIsVisible && (
@@ -48,7 +48,7 @@ function QrCodeGenerator() {
             <div className="qrcode__image">
               <QRCodeCanvas value={url} size={300} />
             </div>
-            <button onClick={downloadQRCode}>Download QR Code</button>
+            <button onClick={downloadQRCode}>Télécharger le QR Code</button>
           </div>
         )}
       </div>
