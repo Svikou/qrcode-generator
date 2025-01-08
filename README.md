@@ -5,8 +5,11 @@
 ## Key Features:
 
 • Input Field for Text or URL: Users can input any text or URL that they want to convert into a QR code.
+
 • Generate QR Code Button: A button that triggers the generation of the QR code based on the user’s input.
+
 • Display QR Code: Once the QR code is generated, it is displayed on the screen for the user to view.
+
 • Download QR Code: Users can download the generated QR code as an image for future use.
 
 ## Screenshot 📸
