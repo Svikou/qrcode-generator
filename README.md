@@ -23,6 +23,7 @@ Frontend: React.js, tailwind css
 ## Skills Gained 🧠
 
 • React.js: Familiarity with React functional components, useState for managing input data, and integrating third-party libraries.
+
 • Dynamic Rendering: Handling dynamic rendering of elements, in this case, the QR code based on the user’s input.
 • Event Handling: Managing button clicks to trigger actions (QR code generation and downloading).
 • Image Download Functionality: Implementing functionality to allow users to download the QR code as an image.
